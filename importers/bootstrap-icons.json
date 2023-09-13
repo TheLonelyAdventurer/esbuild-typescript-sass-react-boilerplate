@@ -1,0 +1,13 @@
+{ "module": "bootstrap-icons"
+, "resolve_filter": "/bootstrap-icons\\.(?:woff|ttf|otf)/"
+, "load_filter": "/bootstrap-icons\\.(?:woff|ttf|otf)/"
+, "import_path": "bootstrap-icons/font/"
+, "zipfs_path": "~bootstrap-icons/font/fonts/bootstrap-icons"
+, "lookup":
+	[ ".woff2"
+	, ".woff"
+	, ".otf"
+	, ".ttf"
+	]
+, "loader": "dataurl"
+}

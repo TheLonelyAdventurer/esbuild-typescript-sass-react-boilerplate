@@ -1,0 +1,17 @@
+{ "buildOptions":
+	{ "verbose": true
+	}
+	, "compilerOptions":
+		{ "alwaysStrict": true
+		, "allowJs": true
+		, "esModuleInterop": true
+		, "moduleResolution": "node"
+		, "module": "ESNext"
+		, "target": "ESNext"
+		, "lib":
+			[ "DOM"
+			, "ES2017"
+			]
+		, "jsx": "react"
+		}
+}

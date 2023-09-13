@@ -1,0 +1,33 @@
+{
+	"name": "esbuild-typescript-sass-react-boilerplate",
+	"version": "1.0.0",
+	"description": "This boilerplate creates an environment with yarn, esbuild, typescript, sass and React. Sass import modules are supported as well.",
+	"main": "builder.js",
+	"repository": "https://github.com/TheLonelyAdventurer/esbuild-typescript-sass-react-boilerplate",
+	"author": "TheLonelyAdventurer <nomid.lomysz@protonmail.com>",
+	"license": "MIT",
+	"private": true,
+	"packageManager": "yarn@3.6.0",
+	"type": "module",
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-bootstrap": "^2.7.4",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@squirrelnetwork/esbuild-sass-modules-plugin": "^1.0.9",
+		"@types/react": "^18.2.9",
+		"@types/react-dom": "^18.2.4",
+		"@yarnpkg/fslib": "^3.0.0-rc.45",
+		"@yarnpkg/libzip": "^3.0.0-rc.45",
+		"dotenv-safe": "^8.2.0",
+		"esbuild": "^0.17.19",
+		"gulp": "^4.0.2",
+		"path": "^0.12.7",
+		"pnpapi": "^0.0.0",
+		"postcss": "^8.4.24",
+		"sass": "^1.63.4",
+		"typescript": "^5.1.3",
+		"url": "^0.11.1"
+	}
+}
