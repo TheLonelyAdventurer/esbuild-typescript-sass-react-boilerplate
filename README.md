@@ -73,4 +73,4 @@ There are no post-build actions in this project (except for the `serve` task, wh
   You don't actually need it, but some editors will complain if it is not installed.
 [^5]: Custom plugins are already handled by esbuild, but I provide a way to also load them as JSON for simple loaders, especially with such cases like SASS import urls whose modules do not resolve in the Yarn context (esbuild only handles this for direct dependencies).
   You might want to look at the wiki of this project for how to implement path resolvers.
-  I provide an example loader [bootstrap-icons.json](/importers/bootstrap-icons.json).
+  I provide an example loader [bootstrap-icons.json](https://github.com/TheLonelyAdventurer/esbuild-typescript-sass-react-yarn-boilerplate/blob/master/importers/bootstrap-icons.json).
