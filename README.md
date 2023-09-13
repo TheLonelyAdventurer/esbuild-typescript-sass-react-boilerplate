@@ -66,14 +66,11 @@ There are no post-build actions in this project (except for the `serve` task, wh
 ---
 
 [^1]: Via importers (check the wiki)
-[^2]:
-  You can use any Task Runner with this configuration.
+[^2]: You can use any Task Runner with this configuration.
   I just chose Gulp because it's simple enough to configure a demo.
 [^3]: Warning: versions 1.63.0<1.63.4 have a [bug (sass/dart-sass#1995)](https://github.com/Squirrel-Network/esbuild-sass-modules-plugin#:~:text=1.63.0%20because%20of-,sass/dart%2Dsass%231995,-The%20issue%20has) which causes SASS to be unable to be imported.
-[^4]:
-  TypeScript is not actually used in the build process because esbuild can build typescript by itself.
+[^4]: TypeScript is not actually used in the build process because esbuild can build typescript by itself.
   You don't actually need it, but some editors will complain if it is not installed.
-[^5]:
-  Custom plugins are already handled by esbuild, but I provide a way to also load them as JSON for simple loaders, especially with such cases like SASS import urls whose modules do not resolve in the Yarn context (esbuild only handles this for direct dependencies).
+[^5]: Custom plugins are already handled by esbuild, but I provide a way to also load them as JSON for simple loaders, especially with such cases like SASS import urls whose modules do not resolve in the Yarn context (esbuild only handles this for direct dependencies).
   You might want to look at the wiki of this project for how to implement path resolvers.
   I provide an example loader [bootstrap-icons.json](./importers/bootstrap-icons.json).
